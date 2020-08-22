@@ -1,0 +1,54 @@
+1) Regular test
+
+INPUT: abc bcd mmm
+
+OUTPUT:
+You entered 3 word(s).
+The longest word has 3 characters.
+The biggest number of vowels in a word is 1.
+----------
+2) Multiple spaces
+
+INPUT: abc       abc
+
+OUTPUT:
+You entered 2 word(s).
+The longest word has 3 characters.
+The biggest number of vowels in a word is 1
+----------
+3) Press enter straight away
+
+INPUT: <<empty>>
+
+OUTPUT:
+This cannot be empty. Please restart the program and enter words.
+----------
+4) One word
+
+INPUT: abcdefghijklm
+
+OUTPUT:
+You entered 1 word(s).
+The longest word has 13 characters.
+The biggest number of vowels in a word is 3.
+----------
+5) No vowels
+
+INPUT: pppppppp
+
+OUTPUT:
+You entered 1 word(s).
+The longest word has 8 characters.
+No vowels found in this input.
+
+----------
+6) Symbols and digits
+
+The assignment only say "characters" and not "letters" so I didn't prevent digits and symbols to be counted
+as characters and words. It's something we could easily implement though.
+
+INPUT: 123456+++* 64564çà
+
+You entered 2 word(s).
+The longest word has 10 characters.
+No vowels found in this input.
