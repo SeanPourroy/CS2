@@ -27,7 +27,7 @@ void convertTo24Hour(timeStruct& clock) {
 int main()
 {
   timeStruct time = {"PM", 11, 10, 50};
-  cout << "Is the time entered exists? " << isItLegal(time) << endl;
+  cout << "Does the time entered exists? " << isItLegal(time) << endl;
   convertTo24Hour(time);
   cout << time.hour << ":" << time.minutes << ":" << time.seconds << " " << time.period << endl;
   return 0;
